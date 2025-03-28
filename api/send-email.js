@@ -28,8 +28,8 @@ export default async function handler(req, res) {
 
   try {
     const email = {
-      to: "andaravi4@hotmail.com", // Cambia a tu correo real
-      from: "andaravi4@gmail.com",   // Debe estar verificado en SendGrid
+      to: "andaravi4@gmail.com", // Cambia a tu correo real
+      from: "andaravi4@hotmail.com",   // Debe estar verificado en SendGrid
       subject: `Reporte de Luminaria #${numeroReporte}`,
       templateId: "d-62ce1b996a0c4227be037c689d93cd62", // Tu ID de plantilla
       dynamic_template_data: {
