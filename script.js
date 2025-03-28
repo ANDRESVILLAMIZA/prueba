@@ -51,7 +51,7 @@ document.getElementById("luminariaForm").addEventListener("submit", async functi
 
 async function enviarFormulario(data, form) {
     try {
-        const response = await fetch("api/send-email.js", {
+        const response = await fetch("api/send-email", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
